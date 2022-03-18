@@ -14,3 +14,28 @@ int main()
     cout << "if you want to play press enter button\n";
 }
 
+#include <iostream>
+#include <conio.h>
+using namespace std;
+void playgame(){
+
+}
+int main()
+{   
+    string input;
+    cout<<"Press space for next round: ";
+    cin >> input;
+    cout<<"\n You've enter"<< input; 
+    input = _getch();
+    if (input == " ")
+    {
+        cout<<1;
+        
+    }
+    else{
+        cout<< 2;
+    }
+
+
+    return 0;
+}
