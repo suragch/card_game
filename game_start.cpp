@@ -11,5 +11,5 @@ int main()
     cout << "5. if 2 players dont have same card and press space button then player will loose 1 point\n";
     cout << "6. after 26 rounds player who gopt highest point will be the winner\n";
     cout << "good luck :)\n";
-    cout << "";
+    cout << "haha";
 }
