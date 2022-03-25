@@ -2,7 +2,7 @@
 #include <random>
 #include <iostream>
 #include <list>
-#include "cards.h"
+
 using namespace std;
 
 class Card{
@@ -23,6 +23,6 @@ class Hand{
 };
 //shuffle ni deck awaad deck butsaaj ugnu
 Deck shuffle(Deck deck){
-random_shuffle(deck.deck.begin(), deck.deck.end());
+// random_shuffle(deck.deck.begin(), deck.deck.end());
 return deck;
 }
